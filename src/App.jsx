@@ -3,7 +3,7 @@ import { Home } from "./pages";
 
 function App() {
   return (
-    <Router basename="/blog/">
+    <Router basename="/">
       <main>
         <Routes>
           <Route path="" element={<Home />} />
